@@ -65,7 +65,6 @@ def calculate_compression_speed(original_size, compression_time):
 def calculate_decompression_speed(decompressed_size, decompression_time):
     return decompressed_size / decompression_time
 
-
 def test_lzw_compression_1(extensions):
     timer = Timer()
     for extension in extensions:
